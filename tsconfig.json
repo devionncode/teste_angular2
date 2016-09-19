@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "files": [
+    "./src/app.routes.ts",
+    "./src/app.ts",
+    "./src/common/auth.guard.ts",
+    "./src/common/headers.ts",
+    "./src/home/home.ts",
+    "./src/home/index.ts",
+    "./src/index.ts",
+    "./src/login/index.ts",
+    "./src/login/login.ts",
+    "./src/signup/index.ts",
+    "./src/signup/signup.ts"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
